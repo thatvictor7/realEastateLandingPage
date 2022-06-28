@@ -1,0 +1,17 @@
+// @import "../node_modules/bootstrap/scss/functions";
+// @import “../node_modules/bootstrap/scss/bootstrap.scss”;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Default variable overrides
+// $theme-colors: (
+//     "primary": #0074d9
+// );
+$primary-color: #0000009c;
+
+.bg-dark {
+    background-color: $primary-color !important;
+}
+
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
