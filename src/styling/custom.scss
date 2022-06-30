@@ -10,7 +10,14 @@ $primary-color: #0000009c;
 
 .bg-dark {
     background-color: $primary-color !important;
-}
+};
+
+// .flex-center {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-content: center;
+// }
 
 // @import "../node_modules/bootstrap/scss/variables";
 // @import "../node_modules/bootstrap/scss/mixins";
