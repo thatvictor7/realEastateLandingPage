@@ -1,0 +1,21 @@
+@import './custom.scss';
+
+#card-container {
+    // background-color: blueviolet;
+    width: 60%;
+    text-align: left;
+}
+
+#top-card {
+    font-weight: 100;
+}
+
+#emphasized {
+    color: $sec-color;
+}
+
+@media all and (max-width: 950px) {
+    #card-container {
+        width: 80%;
+    }
+}
