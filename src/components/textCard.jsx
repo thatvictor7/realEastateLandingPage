@@ -44,13 +44,14 @@ export default function TextCard(props) {
     // const button = props.button
     const textSection = props.textSection
     const buttonText = props.button
-    const titleSection = props.title
+    const title1 = props.title1
+    const title2 = props.title2
     
     
     return(
         <div id='card-container'>
-            <h4 id='top-card'>Top Component</h4>
-            <h1>{cardTitleColorize(titleSection[0], titleSection[1])}</h1>
+            <h4 id='top-card'>{title2}</h4>
+            <h1>{cardTitleColorize(title1[0], title1[1])}</h1>
             <p>{textSection}</p>
             <Button >{buttonText}</Button>
         </div>
