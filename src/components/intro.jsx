@@ -1,6 +1,7 @@
 import '../styling/intro.scss'
 import Card from './textCard.jsx'
 import SidewayCard from './sidewayCard.jsx'
+import { PlusCircleFill } from 'react-bootstrap-icons';
 
 export default function intro() {
 
@@ -18,7 +19,10 @@ export default function intro() {
         <div id='intro-container' className='flex-center'>
             <div id='description-section' className='flex-center'>
                 <Card textSection={text} button={button} title1={title1} title2={title2} />
-                <SidewayCard />
+                <div id='intro-side-container'>
+                    <SidewayCard text1='SHARE' orientation='ru' spacing='10px' />
+                    <PlusCircleFill size='2.5em' />
+                </div>
             </div>
             <div id='description-image' className='flex-center'></div>
         </div>

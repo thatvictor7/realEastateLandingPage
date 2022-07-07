@@ -1,6 +1,20 @@
 @import './custom.scss';
 
 #sideway-container {
-    text-orientation: sideways;
-    border: 1px solid white;
+    // text-orientation: sideways;
+    // border: 1px solid white;
+    // letter-spacing: 10px;
+    // writing-mode: tb;
+}
+
+.lu {
+    transform: rotate(90deg);
+}
+
+.ru {
+    transform: rotate(-90deg);
+}
+
+#line2 {
+    color: $sec-color;
 }
