@@ -5,9 +5,29 @@
     height: 100vh;
     width: 100%;
     color: rgb(0, 0, 0);
+    // justify-content: space-around;
 }
 
 #top-section-container {
     border: 1px solid black;
     width: 100%;
+    display: flex;
+    height: fit-content;
+}
+
+#carousel {
+    width: 50vw;
+}
+
+@media all and (max-width: 950px) {
+    #top-section-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 90vh;
+        justify-content: space-evenly;
+    }
+
+    #carousel {
+        width: 100vw;
+    }
 }

@@ -18,13 +18,13 @@ export default function name(params) {
 
             <Nav>
               {/* <Nav.Link>Test</Nav.Link> */}
-              <NavDropdown title='Search Homes' id="collasible-nav-dropdown">
+              <NavDropdown title='Quaerere Domos' id="collasible-nav-dropdown">
 
               </NavDropdown>
-              <NavDropdown title='Agents & Office' id="collasible-nav-dropdown">
+              <NavDropdown title='Agentium et Officium' id="collasible-nav-dropdown">
 
               </NavDropdown>
-              <NavDropdown title="Get a Mortgage" id="collasible-nav-dropdown">
+              <NavDropdown title="Hypotheca" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
