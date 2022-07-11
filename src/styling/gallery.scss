@@ -5,14 +5,26 @@
     height: 100vh;
     width: 100%;
     color: rgb(0, 0, 0);
+    flex-direction: column;
     // justify-content: space-around;
 }
 
 #top-section-container {
-    border: 1px solid black;
+    // border: 1px solid black;
     width: 100%;
     display: flex;
     height: fit-content;
+}
+
+#mid-section-gallery {
+    width: 33%;
+    background-color: $background;
+    color: white;
+}
+
+#bottom-section-container {
+    width: 100%;
+
 }
 
 #carousel {

@@ -1,4 +1,5 @@
 import '../styling/gallery.scss'
+import Gallery2 from './gallery2.jsx'
 import Card from './textCard.jsx'
 import Carousel from 'react-bootstrap/Carousel'
 import House1 from '../assets/traditional-home.jpg'
@@ -11,7 +12,10 @@ export default function gallery(props) {
     return (
         <div id='gallery-container' className='flex-center'>
             <div id='top-section-container'>
-                <Card textSection='aaa' button='Ire Emere >' title1={title1} title2='Collectio moderna' />
+                <div className='flex-center'>
+                    <Card textSection='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' button='Ire Emere >' title1={title1} title2='Collectio moderna' />
+                </div>
+
                 <Carousel id='carousel'>
                     <Carousel.Item interval={1500}>
                         <img
@@ -35,7 +39,7 @@ export default function gallery(props) {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item interval={1000}>
                         <img
                             className="d-block w-100 carousel-image"
                             src={House3}
@@ -50,6 +54,7 @@ export default function gallery(props) {
                     </Carousel.Item>
                 </Carousel>
             </div>
+            <Gallery2 />
         </div>
     )
 }
