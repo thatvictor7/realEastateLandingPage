@@ -46,10 +46,11 @@ export default function TextCard(props) {
     const buttonText = props.button
     const title1 = props.title1
     const title2 = props.title2
+    const customWidth = props.width
     
     
     return(
-        <div id='card-container'>
+        <div style={{width: customWidth}} id='card-container'>
             <h4 id='top-card'>{title2}</h4>
             <h1>{cardTitleColorize(title1[0], title1[1])}</h1>
             <p>{textSection}</p>

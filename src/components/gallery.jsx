@@ -17,7 +17,7 @@ export default function gallery(props) {
                 </div>
 
                 <Carousel id='carousel'>
-                    <Carousel.Item interval={1500}>
+                    <Carousel.Item interval={2000}>
                         <img
                             className="d-block w-100 carousel-image"
                             src={House1}
@@ -28,7 +28,7 @@ export default function gallery(props) {
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={1000}>
+                    <Carousel.Item interval={1500}>
                         <img
                             className="d-block w-100 carousel-image"
                             src={House2}
@@ -39,7 +39,7 @@ export default function gallery(props) {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={1000}>
+                    <Carousel.Item interval={1500}>
                         <img
                             className="d-block w-100 carousel-image"
                             src={House3}
