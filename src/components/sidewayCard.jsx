@@ -5,6 +5,7 @@ export default function sidewayCard(props) {
     const textLine1 = props.text1
     const textLine2 = props.text2
     const cardOrientation = props.orientation
+    // Orientation is 'lu' or 'ru'
     const letterSpacing = props.spacing
     return(
         <div style={{letterSpacing: letterSpacing}} id='sideway-container' className={cardOrientation}>

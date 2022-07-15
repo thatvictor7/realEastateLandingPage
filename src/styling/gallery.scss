@@ -7,6 +7,7 @@
     width: 100%;
     color: rgb(0, 0, 0);
     flex-direction: column;
+    padding: 5vh 0;
     // justify-content: space-around;
 }
 
@@ -15,11 +16,15 @@
     width: 100%;
     display: flex;
     height: fit-content;
+    padding-bottom: 10vh;
 }
 
 #left-section-gallery {
     width: 33.3%;
-    background-color: aqua;
+    // background-color: aqua;
+    border: solid 1px black;
+    height: fit-content;
+    justify-content: space-between;
 }
 
 #mid-section-gallery {
@@ -39,8 +44,34 @@
 
 }
 
+.section-image {
+    height: 50vh;
+    aspect-ratio: 3/4;
+    // width: 90%;
+    background-position: center;
+    background-size: cover;
+}
+
 #carousel {
     width: 50vw;
+}
+
+.section-container-gallery {
+    height: 100%;
+}
+
+#image-conatiner {
+    flex-direction: column;
+    // height: 80vh;
+    height: fit-content;
+}
+
+#image1 {
+    background-image: url('../assets/door.jpg');
+}
+
+#image2 {
+   background-image: url(../assets/home3.jpg); 
 }
 
 @media all and (max-width: 950px) {
