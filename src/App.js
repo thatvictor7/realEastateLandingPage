@@ -3,6 +3,7 @@ import './styling/App.css';
 import Navbar  from './components/navbar.jsx'
 import Intro from './components/intro.jsx'
 import Gallery from './components/gallery.jsx'
+import SecondGallery from './components/secondGallery'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Intro />
       <Gallery />
+      <SecondGallery />
     </div>
   );
 }
