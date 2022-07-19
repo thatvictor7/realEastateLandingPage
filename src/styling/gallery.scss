@@ -22,9 +22,10 @@
 #left-section-gallery {
     width: 33.3%;
     // background-color: aqua;
-    border: solid 1px black;
+    // border: solid 1px black;
     height: fit-content;
     justify-content: space-between;
+    padding: 5vh 0;
 }
 
 #mid-section-gallery {
@@ -32,11 +33,13 @@
     background-color: $background;
     color: white;
     padding: 5%;
+    margin: 0 5px;
 }
 
 #right-section-gallery {
     width: 33.3%;
-    background-color: aqua;
+    padding: 5vh 0;
+    // background-color: aqua;
 }
 
 #bottom-section-container {
@@ -72,6 +75,10 @@
 
 #image2 {
    background-image: url(../assets/home3.jpg); 
+} 
+
+.side-text {
+    writing-mode: vertical-lr;
 }
 
 @media all and (max-width: 950px) {
@@ -91,11 +98,18 @@
     }
 
     #mid-section-gallery {
-        padding: 10%;
+        padding: 15vh 5vw;
     }
 
     .full-width {
         width: 100% !important;
+    }
+
+    #right-section-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
 
