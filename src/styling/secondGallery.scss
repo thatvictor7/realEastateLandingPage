@@ -10,6 +10,7 @@
     background-image: url('../assets/home3.jpg');
     width: 40%;
     height: 100%;
+    background-position: center;
 }
 
 #card-second-gal {
@@ -19,6 +20,8 @@
 @media all and (max-width: 950px) {
     #second-gallery-container {
         flex-direction: column;
+        min-height: fit-content;
+        height: 100vh;
     }
 
     #image-second-gal {
@@ -27,5 +30,6 @@
 
     #card-second-gal {
         width: 100%;
+        padding: 10vh 0;
     }
 }

@@ -2,13 +2,16 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import Logo from '../assets/logoipsum-logo-34.svg'
 
 export default function name(params) {
   return (
     <div>
       <Navbar fixed='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Homecenter</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <div style={{backgroundImage: `url(${Logo})`}} id='logo-nav'></div>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
 
