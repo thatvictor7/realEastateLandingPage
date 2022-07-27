@@ -1,4 +1,5 @@
 import '../styling/articlesSection.scss'
+import { Button } from 'react-bootstrap'
 import CustomCard from './textCard'
 import image1 from '../assets/peopleWalking.jpg'
 import image2 from '../assets/people-sunset.jpg'
@@ -12,7 +13,11 @@ const text = `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 function articleCard(widthInput,image) {
     return(
         <div style={{width: widthInput, backgroundImage: `url(${image})`}} className='article'>
-            
+            <div className='article-text'>
+            <h4 id='article-title4'>Verus Praedium Annuntiationes</h4>
+            <h2 id='article-title2'>Ut enim ad minim veniam, quis nostrud exercitation</h2>
+            <Button className='article-button' size='sm'>Lege Plus </Button>
+            </div>
         </div>
     )
 }
