@@ -5,6 +5,29 @@
     width: 100%;
 }
 
+#form-container {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5% 0;
+}
+
+#input-container {
+   width: 65%; 
+   background-color: aqua;
+}
+
+#email-input {
+    height: 2.5em;
+}
+
+#email-button {
+    height: 2.5em;
+    border-radius: 0;
+}
+
 #contact-image {
     height: 60vh;
     width: 100%;
@@ -19,4 +42,8 @@
 .social-element {
     margin: 0 3%;
     font-size: 1.2em;
+}
+
+.social-name {
+    margin: 0 0 0 .5em;
 }

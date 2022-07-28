@@ -6,6 +6,7 @@ import Gallery from './components/gallery.jsx'
 import SecondGallery from './components/secondGallery.jsx'
 import ArticleSection from './components/articlesSection.jsx'
 import Contact from './components/contactSection.jsx'
+import NavBottom from './components/navBottom.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <SecondGallery />
       <ArticleSection />
       <Contact />
+      <NavBottom />
     </div>
   );
 }
