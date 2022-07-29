@@ -8,9 +8,9 @@ export default function NavBottom(params) {
                     <h5>
                         Contactus Notitia
                     </h5>
-                    <p>
+                    <span>
                         MCMXIV Via Hispaniam <br></br>Roma, Roma LXXXCCXXV
-                    </p>
+                    </span>
                 </div>
                 <div className='nav-column'>
                     <h5>
@@ -20,11 +20,17 @@ export default function NavBottom(params) {
                     <span>Venditionis Leges Condicionesque</span>
                     <span>Redit et Redde</span>
                     <span>Secretum Notitia</span>
+                    <span>Communi Quaestionum</span>
                 </div>
-                <div>
+                <div className='nav-column'>
                     <h5>
                         Alia Genera
                     </h5>
+                    <span>Domum(45)</span>
+                    <span>Litore Domus(6)</span>
+                    <span>Cameram(19)</span>
+                    <span>Villa(27)</span>
+                    <span>Conclavia(52)</span>
                 </div>
                 <div>
                     d

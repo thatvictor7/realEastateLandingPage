@@ -10,7 +10,7 @@
 }
 
 #head-bottom-nav {
-    border: 1px solid white;
+    // border: 1px solid white;
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
@@ -26,4 +26,20 @@
 #end-bottom-nav {
     border: 1px solid red;
     width: 100%;
+}
+
+div > span {
+    color: rgb(125, 125, 125);
+}
+
+@media all and (max-width: 950px) {
+    #bottom-nav-container {
+        height: fit-content;
+    }
+    #head-bottom-nav {
+        flex-direction: column;
+        padding: 0 5vw;
+        min-height: fit-content;
+        height: 60vh;
+    }
 }
