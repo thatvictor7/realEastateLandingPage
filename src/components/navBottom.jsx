@@ -1,4 +1,6 @@
 import '../styling/navBottom.scss'
+import EmailInput from './emailInput.jsx'
+import emailInput from './emailInput.jsx'
 
 export default function NavBottom(params) {
     return (
@@ -33,7 +35,7 @@ export default function NavBottom(params) {
                     <span>Conclavia(52)</span>
                 </div>
                 <div>
-                    d
+                    <EmailInput />
                 </div>
             </div>
             <div id='end-bottom-nav'>
