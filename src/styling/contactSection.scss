@@ -14,19 +14,6 @@
     padding: 5% 0;
 }
 
-#input-container {
-   width: 65%; 
-   background-color: aqua;
-}
-
-#email-input {
-    height: 2.5em;
-}
-
-#email-button {
-    height: 2.5em;
-    border-radius: 0;
-}
 
 #contact-image {
     height: 60vh;
@@ -46,4 +33,10 @@
 
 .social-name {
     margin: 0 0 0 .5em;
+}
+
+@media all and (max-width: 950px) {
+    #form-container {
+        width: 90%;
+    }
 }

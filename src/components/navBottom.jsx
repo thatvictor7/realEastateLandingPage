@@ -34,7 +34,7 @@ export default function NavBottom(params) {
                     <span>Villa(27)</span>
                     <span>Conclavia(52)</span>
                 </div>
-                <div>
+                <div className='nav-column'>
                     <EmailInput />
                 </div>
             </div>
