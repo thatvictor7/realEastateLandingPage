@@ -38,8 +38,9 @@ export default function NavBottom(params) {
                     <EmailInput />
                 </div>
             </div>
-            <div id='end-bottom-nav'>
-                bottom section
+            <div id='end-bottom-nav' className='flex-center'>
+                <span>@2020, All Rights Reserved</span>
+                <span>Designed by: www.victormo.net</span>
             </div>
         </div>
     )
