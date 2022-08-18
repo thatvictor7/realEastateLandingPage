@@ -54,7 +54,9 @@ export default function TextCard(props) {
             <h4 id='top-card'>{title2}</h4>
             <h1>{cardTitleColorize(title1[0], title1[1])}</h1>
             <p>{textSection}</p>
-            <Button >{buttonText}</Button>
+
+            {/* <Button >{buttonText}</Button> */}
+            <div>{buttonText ? <Button >{buttonText}</Button> : null} </div>
         </div>
     )
 }
